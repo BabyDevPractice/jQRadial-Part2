@@ -1,0 +1,37 @@
+.circle:active,
+.circle:focus,
+.circle.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.circle{
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgb(164, 100, 127);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 75px;
+  position:relative;
+}
+.bar{
+  width: 75px;
+  background-color: black;
+  height: 15px;
+  margin-top: 10px;
+  margin-left: 38px;
+}
+.top{
+  margin-top: 42.5px;
+  left:0;
+}
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
